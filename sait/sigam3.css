@@ -131,9 +131,9 @@ nav a:hover{
     margin-left: 350px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width:767px) {
  .blogcont1{
-    font-size: 14px;
+    font-size: 30%;
  }
  .deletebutton{
     margin-left: 15px;
