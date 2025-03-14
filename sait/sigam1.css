@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: "Roboto", serif;
+    background-image: url(mnepopa/fon1.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    
+}
+
+
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+    height: 70px;
+    transition: 0.3s;
+}
+
+
+.logotip {
+    display: flex;
+    flex-wrap: nowrap;
+   
+    height: 100%;
+}
+.logotip img{
+  width: 100%;
+  height: 100%;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    
+}
+.navcenter{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+nav {  
+
+    display: flex;
+    
+    align-items: center;
+    overflow: hidden;  
+    border-radius: 7px;   
+
+} 
+nav a {  
+    
+    padding-left: 3%;
+    float: left;  
+    display: block;  
+    color: black;
+    text-align: center;  
+    padding: 14px 16px;  
+    text-decoration: none;  
+}  
+
+nav a:hover{
+        color:orange;
+        transition: 0.3s;
+}
+.orange{
+    width: auto;
+    height: auto;
+    color: orange;
+}
+
+.hits{
+    display: flex;
+    justify-self: center;
+    margin-bottom: 270px;
+    margin-top: 100px;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hits h1{
+    font-family: cursive;
+}
+.hitscont{
+   
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   height: 90%;
+   justify-content: space-around;
+}
+.hitscont1{
+   margin-top: 50px;
+   background-color: rgba(141, 141, 141, 0.2);
+   display: flex;
+   width: 25%;
+   height: 600px;
+   border-radius: 15px;
+   flex-wrap: wrap;
+   border: 1px solid black;
+   justify-content: center;
+   transition: transform 0.3s ease;
+}
+.hitscont1:hover {
+    transform: scale(1.1); 
+}
+.vlad{
+    font-size: 13px;
+}
+.hitscontnew{
+   
+   background-image: url(mnepopa/gg.png);
+   background-size: cover;
+   display: flex;
+   width: 500px;
+   height: 300px;
+   border-radius: 15px;
+   
+}
+.hitscontnew1{
+   
+    background-image: url(mnepopa/gg1.png);
+    background-size: cover;
+    display: flex;
+    width: 500px;
+   height: 300px;
+    border-radius: 15px;
+    
+ }
+
+ .hitscontnew2{
+   
+    background-image: url(mnepopa/gg2.png);
+    background-size: cover;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    
+ }
+
+ .hitscontnew3{
+   
+    background-image: url(mnepopa/gg3.png);
+    background-size: cover;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    
+ }
+
+ .hitscontnew4{
+   
+    background-image: url(mnepopa/gg4.jpg);
+    background-size: cover;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    
+ }
+ .hitscontnew5{
+   
+    background-image: url(mnepopa/gg5.png);
+    background-size: cover;
+    display: flex;
+    width: 500px;
+   height: 300px;
+    border-radius: 15px;
+    
+ }
+
+ .hitscontnew6{
+   
+    background-image: url(mnepopa/gg6.png);
+    background-size: cover;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    
+ }
+
+ .hitscontnew7{
+   
+    background-image: url(mnepopa/gg7.jpg);
+    background-size: cover;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    
+ }
+
+ .hitscontnew8{
+   
+    background-image: url(mnepopa/gg8.png);
+    background-size: cover;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    
+ }
+ .hitscontnew9{
+   
+    background-image: url(mnepopa/gg9.png);
+    background-size: cover;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    
+ }
+ .hitscont1 p{
+    font-weight: 400;
+ }
+.bigname{
+    font-size: 25px;
+    font-family: cursive;
+}
+.footer{
+    display: flex;
+ 
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(59, 59, 59);
+    height: 70px;
+    color: white;
+    font-size: 15px;
+    align-items: center;
+}
+.deletebutton{
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: red;
+    margin-left: 350px;
+}
+
+.filtmaincont{
+    width: 100%;
+    height: 100px;
+    display: flex;
+  
+    justify-content: center;
+}
+.filtrpoisk{
+    display: flex;
+    margin-top: 20px;
+    width: 40%;
+    height: 60px;
+    border: 1px solid rgb(63, 63, 63);
+    border-radius: 40px;
+    color: gray;
+}
+.filtrpoisk input{
+    outline: none;
+    border: none;
+    background: transparent;
+    size: 40;
+}
+
+.filtrpoisk img{
+    width: 50px;
+    height: 50px;
+    padding-left: 1%;
+    padding-top: 0.5%;
+}
+
+.filtri{
+    width: 100%;
+    height: 40px;
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+}
+
+.filtri1{
+    display: flex;
+    width: 15%;
+    height: 95%;
+    
+    align-items: center;
+    font-family: cursive;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.filtri1 img{
+    width: 40px;
+}
+
+@media screen and (max-width: 600px){
+    .filtri{
+        height: 80px;
+    }
+    .filtri1{
+        width: 35%;
+    }
+    .filtrpoisk{
+        width: 50%;
+    }
+    .hits{
+        margin-bottom: 400px;
+    }
+    .hitscont1{
+        width: 80%;
+    }
+    .hitscont1 p{
+        font-size: 20px;
+    }
+    .deletebutton{
+        margin-left: 15px;
+    }
+    .navcenter{
+        width: auto;
+    }
+
+    
+}
+
+@media (min-width: 3840px) {
+   .header{
+    height: 200px;
+    font-size: 40px;
+   }
+   .filtrpoisk{
+    height: 100%;
+    width: 60%;
+    margin-top: 0;
+   }
+   .filtrpoisk img{
+    width: 5%;
+    height: auto;
+   }
+   .filtrpoisk input{
+    font-size: 30px;
+   }
+   .filtri{
+    font-size: 30px;
+    margin-top: 10px;
+   }
+   .hits{
+    font-size: 40px;
+   }
+   .hitscont1{
+    width: 40%;
+    justify-content: flex-start;
+   }
+   .bigname{
+    font-size: 60px;
+   }
+   .vlad{
+    font-size: 45px;
+   }
+
+   .footer{
+    height: 200px;
+    font-size: 45px;
+   }
+   .deletebutton{
+    width: 600px;
+    height: 100px;
+   }
+}

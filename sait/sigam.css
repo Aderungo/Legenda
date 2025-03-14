@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: "Roboto", serif;
+    background-image: url(mnepopa/fon1.jpg);
+    background-size: cover;
+    
+}
+
+
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+    height: 70px;
+    
+}
+
+
+.logotip {
+    display: flex;
+    flex-wrap: nowrap;
+   
+    height: 100%;
+}
+.logotip img{
+  width: 100%;
+  height: 100%;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    
+}
+.navcenter{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+nav {  
+
+    display: flex;
+    
+    align-items: center;
+    overflow: hidden;  
+    border-radius: 7px;   
+
+} 
+nav a {  
+    
+    padding-left: 3%;
+    float: left;  
+    display: block;  
+    color: black;
+    text-align: center;  
+    padding: 14px 16px;  
+    text-decoration: none;  
+}  
+
+nav a:hover{
+    color:orange;
+    transition: 0.3s;
+}
+
+
+.orange{
+    width: auto;
+    height: auto;
+    color: orange;
+}
+.elita{
+   
+    height: 900px;
+   
+    
+    
+   
+    text-align: center;
+    font-family: cursive;
+}
+.elita img{
+   
+    height: 90%;
+}
+.abt{
+    display: flex;
+    margin-top: 30px;
+
+    height: 900px;
+    justify-self: center;
+   
+    font-weight: 300;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.abtcon{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.abtmini{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(54, 54, 54, 0.2);
+    border-radius: 15px;
+    font-size: 22px;
+}
+
+.abtmini img{
+    padding-top: 2%;
+    
+    height: 30%;
+}
+.abtmini p{
+    font-size: 19px;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(59, 59, 59);
+    height: 70px;
+    color: white;
+    font-size: 15px;
+    align-items: center;
+}
+.f2025{
+    display: flex;
+    width: 10%;
+    height: 100%;
+    justify-self: flex-end;
+    
+    align-items: center;
+}
+.deletebutton{
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: red;
+    margin-left: 350px;
+}
+
+@media screen and (max-width: 600px){
+ .elita img{
+    width: 100%;
+    height: 70%;
+ }
+
+ .abtcon{
+    flex-wrap: wrap;
+ }
+
+ .abtmini{
+  width: 80%;
+  margin-top: 10px;
+ }
+ .footer{
+    margin-top: 1500px;
+ }
+ .deletebutton{
+    margin-left: 15px;
+}
+
+}
+
+@media (min-width: 3840px) {
+    .header{
+     height: 200px;
+     font-size: 40px;
+    }
+
+    .footer{
+        height: 200px;
+        font-size: 45px;
+       }
+       .deletebutton{
+        width: 600px;
+        height: 100px;
+       }
+
+       .elita {
+        font-size: 30px;
+        height: auto
+       }
+
+       .elita img{
+        width: 2000px;
+        height: auto;
+       }
+
+       .abt{
+        height: 1500px;
+        font-size: 40px;
+       }
+       .abtmini{
+        font-size: 40px;
+       }
+       .abtmini p{
+        font-size: 40px;
+       }
+}
