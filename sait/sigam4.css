@@ -131,7 +131,7 @@ nav a:hover{
 
 }
 
-@media (min-width: 3840px) {
+@media screen and (max-width:767px) {
     .header{
      height: 200px;
      font-size: 40px;
